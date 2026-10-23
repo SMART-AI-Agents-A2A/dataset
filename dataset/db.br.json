@@ -1,0 +1,2121 @@
+[
+  {
+    "id": "rag-001",
+    "input": "Segundo as fontes sobre fenologia do cafeeiro, quais fases da cultura exigem maior atenção à disponibilidade de água?",
+    "scenario": "rag_only",
+    "tags": [],
+    "expected_agents": [
+      "rag"
+    ],
+    "expected_skills": [
+      "rag_context_lookup"
+    ],
+    "expected_evidence_layers": [
+      "documentary"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-002",
+    "input": "Como os critérios de irrigação baseados no solo e no clima diferem ao decidir a lâmina e o momento de irrigar o cafeeiro?",
+    "scenario": "rag_only",
+    "tags": [],
+    "expected_agents": [
+      "rag"
+    ],
+    "expected_skills": [
+      "rag_context_lookup"
+    ],
+    "expected_evidence_layers": [
+      "documentary"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-003",
+    "input": "Quais benefícios a irrigação por gotejamento pode oferecer ao cafeeiro e quais falhas de operação ou manutenção podem reduzi-los?",
+    "scenario": "rag_only",
+    "tags": [],
+    "expected_agents": [
+      "rag"
+    ],
+    "expected_skills": [
+      "rag_context_lookup"
+    ],
+    "expected_evidence_layers": [
+      "documentary"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-004",
+    "input": "Quais evidências devem ser coletadas antes de transformar a variabilidade do solo e da vegetação em zonas práticas de manejo para cafés especiais?",
+    "scenario": "rag_only",
+    "tags": [],
+    "expected_agents": [
+      "rag"
+    ],
+    "expected_skills": [
+      "rag_context_lookup"
+    ],
+    "expected_evidence_layers": [
+      "documentary"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-005",
+    "input": "Por que o cafeeiro ainda pode precisar de irrigação suplementar em uma região úmida e quais informações locais são necessárias antes de aplicar essa orientação em outro lugar?",
+    "scenario": "rag_only",
+    "tags": [],
+    "expected_agents": [
+      "rag"
+    ],
+    "expected_skills": [
+      "rag_context_lookup"
+    ],
+    "expected_evidence_layers": [
+      "documentary"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-006",
+    "input": "Como fenologia, temperatura, chuva e déficit hídrico interagem na avaliação da aptidão climática para o café arábica?",
+    "scenario": "rag_only",
+    "tags": [],
+    "expected_agents": [
+      "rag"
+    ],
+    "expected_skills": [
+      "rag_context_lookup"
+    ],
+    "expected_evidence_layers": [
+      "documentary"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-007",
+    "input": "Por que filtragem, prevenção de entupimentos, proteção das tubulações e projeto cuidadoso são importantes em um sistema de irrigação por gotejamento?",
+    "scenario": "rag_only",
+    "tags": [],
+    "expected_agents": [
+      "rag"
+    ],
+    "expected_skills": [
+      "rag_context_lookup"
+    ],
+    "expected_evidence_layers": [
+      "documentary"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-008",
+    "input": "Como mapeamento, amostragem de solo, registros de produtividade e sensoriamento remoto devem ser combinados antes da adoção do manejo em taxa variável?",
+    "scenario": "rag_only",
+    "tags": [],
+    "expected_agents": [
+      "rag"
+    ],
+    "expected_skills": [
+      "rag_context_lookup"
+    ],
+    "expected_evidence_layers": [
+      "documentary"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-009",
+    "input": "Quais práticas de solo, nutrição, poda, manejo de doenças, colheita e qualidade são destacadas para o cultivo sustentável de café arábica?",
+    "scenario": "rag_only",
+    "tags": [],
+    "expected_agents": [
+      "rag"
+    ],
+    "expected_skills": [
+      "rag_context_lookup"
+    ],
+    "expected_evidence_layers": [
+      "documentary"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-010",
+    "input": "Como sensores em campo, imagens aéreas e observações por satélite podem se complementar em um apoio confiável à decisão agrícola?",
+    "scenario": "rag_only",
+    "tags": [],
+    "expected_agents": [
+      "rag"
+    ],
+    "expected_skills": [
+      "rag_context_lookup"
+    ],
+    "expected_evidence_layers": [
+      "documentary"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-011",
+    "input": "Segundo o FAO 56, como a evapotranspiração de referência, o coeficiente de cultura e a evapotranspiração da cultura se relacionam na estimativa da necessidade hídrica?",
+    "scenario": "rag_only",
+    "tags": [],
+    "expected_agents": [
+      "rag"
+    ],
+    "expected_skills": [
+      "rag_context_lookup"
+    ],
+    "expected_evidence_layers": [
+      "documentary"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-012",
+    "input": "Quais limitações e ajustes o FAO 56 descreve quando os dados climáticos estão incompletos ou as condições da cultura diferem das premissas padrão?",
+    "scenario": "rag_only",
+    "tags": [],
+    "expected_agents": [
+      "rag"
+    ],
+    "expected_skills": [
+      "rag_context_lookup"
+    ],
+    "expected_evidence_layers": [
+      "documentary"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "soil-001",
+    "input": "Como está a umidade do solo no talhão?",
+    "scenario": "soil_only",
+    "tags": [],
+    "expected_agents": [
+      "soil"
+    ],
+    "expected_skills": [
+      "soil_latest_status"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "soil-002",
+    "input": "Como a umidade da zona radicular no Setor 3 mudou nas últimas 24 horas?",
+    "scenario": "soil_only",
+    "tags": [],
+    "expected_agents": [
+      "soil"
+    ],
+    "expected_skills": [
+      "soil_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "soil-003",
+    "input": "Quais setores monitorados apresentam atualmente as maiores diferenças de umidade do solo?",
+    "scenario": "soil_only",
+    "tags": [],
+    "expected_agents": [
+      "soil"
+    ],
+    "expected_skills": [
+      "soil_latest_status"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "soil-004",
+    "input": "O que as leituras mais recentes de umidade, temperatura do solo e condutividade indicam para o Setor 5?",
+    "scenario": "soil_only",
+    "tags": [],
+    "expected_agents": [
+      "soil"
+    ],
+    "expected_skills": [
+      "soil_latest_status"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "soil-005",
+    "input": "A umidade da zona radicular aumentou conforme esperado após o último ciclo de irrigação?",
+    "scenario": "soil_only",
+    "tags": [],
+    "expected_agents": [
+      "soil"
+    ],
+    "expected_skills": [
+      "soil_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "soil-006",
+    "input": "As leituras atuais do solo no Setor 7 indicam preocupação com drenagem ou encharcamento?",
+    "scenario": "soil_only",
+    "tags": [],
+    "expected_agents": [
+      "soil"
+    ],
+    "expected_skills": [
+      "soil_latest_status"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "soil-007",
+    "input": "A umidade e a condutividade atuais do solo sustentam a fertirrigação planejada?",
+    "scenario": "soil_only",
+    "tags": [],
+    "expected_agents": [
+      "soil"
+    ],
+    "expected_skills": [
+      "soil_latest_status"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "soil-008",
+    "input": "As leituras do solo são consistentes entre os sensores dos setores monitorados ou alguma área apresenta comportamento discrepante?",
+    "scenario": "soil_only",
+    "tags": [],
+    "expected_agents": [
+      "soil"
+    ],
+    "expected_skills": [
+      "soil_evidence_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "soil-009",
+    "input": "A condição atual do solo é adequada ao tráfego de máquinas sem aumentar o risco de compactação?",
+    "scenario": "soil_only",
+    "tags": [],
+    "expected_agents": [
+      "soil"
+    ],
+    "expected_skills": [
+      "soil_latest_status"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "soil-010",
+    "input": "Quais observações atuais do solo mais sustentam a decisão de irrigação para hoje?",
+    "scenario": "soil_only",
+    "tags": [],
+    "expected_agents": [
+      "soil"
+    ],
+    "expected_skills": [
+      "soil_evidence_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "soil-weather-001",
+    "input": "Posso irrigar hoje no Setor 4?",
+    "scenario": "soil_weather",
+    "tags": [],
+    "expected_agents": [
+      "soil",
+      "weather"
+    ],
+    "expected_skills": [
+      "soil_latest_status",
+      "rain_forecast"
+    ],
+    "expected_route_type": "multi_agent",
+    "expected_response_mode": "recommendation",
+    "response_policy": "irrigation_decision_grounded_v1",
+    "expected_evidence_layers": [
+      "observational",
+      "spatial",
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "soil-weather-002",
+    "input": "Posso irrigar 200 litros de água hoje no Setor 4?",
+    "scenario": "soil_weather",
+    "tags": [],
+    "expected_agents": [
+      "soil",
+      "weather"
+    ],
+    "expected_skills": [
+      "soil_latest_status",
+      "rain_forecast"
+    ],
+    "expected_route_type": "multi_agent",
+    "expected_response_mode": "recommendation",
+    "response_policy": "irrigation_quantity_requires_basis_v1",
+    "expected_evidence_layers": [
+      "observational",
+      "spatial",
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "soil-weather-003",
+    "input": "Considerando a umidade atual do solo no Setor 4 e a previsão de chuva de hoje, devo irrigar agora?",
+    "scenario": "soil_weather",
+    "tags": [],
+    "expected_agents": [
+      "soil",
+      "weather"
+    ],
+    "expected_skills": [
+      "soil_latest_status",
+      "rain_forecast"
+    ],
+    "expected_tool_calls": [
+      {
+        "name": "soil_latest_status",
+        "arguments": {
+          "sector": "4"
+        }
+      }
+    ],
+    "expected_route_type": "multi_agent",
+    "expected_response_mode": "recommendation",
+    "response_policy": "irrigation_decision_grounded_v1",
+    "expected_evidence_layers": [
+      "observational",
+      "spatial",
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-current-001",
+    "input": "Como está o clima agora na fazenda?",
+    "scenario": "weather_current",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_current_status"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-current-002",
+    "input": "O vento atual permite pulverização?",
+    "scenario": "weather_current",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "wind_operational_status"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-current-003",
+    "input": "A radiação solar, a temperatura do ar e a umidade relativa atuais indicam risco de estresse térmico para o cafeeiro?",
+    "scenario": "weather_current",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_agronomic_bundle"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-current-004",
+    "input": "A radiação solar atual está alta o suficiente para aumentar a demanda hídrica da cultura?",
+    "scenario": "weather_current",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "radiation_status"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-current-005",
+    "input": "A temperatura e a umidade relativa atuais sugerem secagem rápida da superfície do solo?",
+    "scenario": "weather_current",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_current_status"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-current-006",
+    "input": "As condições atuais de vento são adequadas para mapeamento de campo e amostragem georreferenciada do solo?",
+    "scenario": "weather_current",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "wind_operational_status"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-current-007",
+    "input": "As condições atuais do ar são adequadas para inspecionar flores e frutos jovens do cafeeiro?",
+    "scenario": "weather_current",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_current_status"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-current-008",
+    "input": "As condições meteorológicas atuais sugerem alta demanda atmosférica de água antes da irrigação de hoje?",
+    "scenario": "weather_current",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_current_status"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-current-009",
+    "input": "A temperatura, a umidade e o vento atuais são adequados para a secagem do café colhido?",
+    "scenario": "weather_current",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_agronomic_bundle"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-current-010",
+    "input": "Qual variável meteorológica atual merece atenção mais imediata no manejo da cultura?",
+    "scenario": "weather_current",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_current_status"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-forecast-001",
+    "input": "Qual é a previsão do tempo para as próximas 24 horas?",
+    "scenario": "weather_forecast",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_forecast"
+    ],
+    "expected_evidence_layers": [
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-forecast-002",
+    "input": "Há previsão de chuva nas próximas 48 horas e ela pode justificar o adiamento da irrigação?",
+    "scenario": "weather_forecast",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "rain_forecast"
+    ],
+    "expected_evidence_layers": [
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-forecast-003",
+    "input": "O vento previsto oferecerá uma janela adequada para pulverização amanhã?",
+    "scenario": "weather_forecast",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "wind_forecast"
+    ],
+    "expected_evidence_layers": [
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-forecast-004",
+    "input": "A previsão para 72 horas indica período de calor elevado ou baixa umidade que possa aumentar a demanda hídrica da cultura?",
+    "scenario": "weather_forecast",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_forecast"
+    ],
+    "expected_evidence_layers": [
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-forecast-005",
+    "input": "A chuva prevista pode afetar o momento ou a uniformidade da florada do cafeeiro?",
+    "scenario": "weather_forecast",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "rain_forecast"
+    ],
+    "expected_evidence_layers": [
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-forecast-006",
+    "input": "A janela meteorológica das próximas 24 horas é adequada para aplicação de nutrientes ou produtos de proteção da cultura?",
+    "scenario": "weather_forecast",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_agronomic_bundle"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-forecast-007",
+    "input": "A previsão oferece uma janela adequada para colheita e secagem do café?",
+    "scenario": "weather_forecast",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_forecast"
+    ],
+    "expected_evidence_layers": [
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-forecast-008",
+    "input": "A temperatura, a umidade e a chuva previstas justificam monitoramento mais próximo do risco de doenças foliares?",
+    "scenario": "weather_forecast",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_forecast"
+    ],
+    "expected_evidence_layers": [
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-forecast-009",
+    "input": "A previsão do tempo pode exigir mudança na frequência de irrigação durante os próximos três dias?",
+    "scenario": "weather_forecast",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_forecast"
+    ],
+    "expected_evidence_layers": [
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-forecast-010",
+    "input": "Há previsão de evento de frio nas próximas 72 horas que possa afetar o cafeeiro?",
+    "scenario": "weather_forecast",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_forecast"
+    ],
+    "expected_evidence_layers": [
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-history-001",
+    "input": "Quanto choveu acumulado nos últimos 30 dias?",
+    "scenario": "weather_history",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "rain_accumulated"
+    ],
+    "expected_tool_calls": [
+      {
+        "name": "rain_accumulated",
+        "arguments": {
+          "window": "-30d"
+        }
+      }
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-history-002",
+    "input": "Quais tendências de temperatura, umidade, radiação, vento e chuva foram observadas nos últimos sete dias?",
+    "scenario": "weather_history",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-history-003",
+    "input": "A temperatura, a umidade e a chuva recentes favoreceram condições associadas a doenças foliares do cafeeiro?",
+    "scenario": "weather_history",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-history-004",
+    "input": "Houve um período seco durante a janela mais recente de observação da florada?",
+    "scenario": "weather_history",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-history-005",
+    "input": "Como a radiação e o vento variaram durante o período mais recente de secagem do café?",
+    "scenario": "weather_history",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-history-006",
+    "input": "Como a chuva e a temperatura do ar variaram durante a fase mais recente de desenvolvimento dos frutos?",
+    "scenario": "weather_history",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-history-007",
+    "input": "Qual tendência meteorológica recente é mais relevante para revisar o cronograma de irrigação?",
+    "scenario": "weather_history",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-history-008",
+    "input": "O clima recente indicou aumento ou redução da demanda atmosférica de água?",
+    "scenario": "weather_history",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "lightning-current-001",
+    "input": "Qual é o risco de raios agora?",
+    "scenario": "lightning_current",
+    "tags": [],
+    "expected_agents": [
+      "lightning"
+    ],
+    "expected_skills": [
+      "lightning_risk"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "lightning-current-002",
+    "input": "Quantas descargas atmosféricas foram detectadas?",
+    "scenario": "lightning_current",
+    "tags": [],
+    "expected_agents": [
+      "lightning"
+    ],
+    "expected_skills": [
+      "lightning_strikes"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "lightning-current-003",
+    "input": "A que distância está a atividade de raios mais próxima detectada atualmente da área monitorada da fazenda?",
+    "scenario": "lightning_current",
+    "tags": [],
+    "expected_agents": [
+      "lightning"
+    ],
+    "expected_skills": [
+      "lightning_incidence"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "lightning-current-004",
+    "input": "É seguro manter a equipe em campo nas condições atuais de raios?",
+    "scenario": "lightning_current",
+    "tags": [],
+    "expected_agents": [
+      "lightning"
+    ],
+    "expected_skills": [
+      "lightning_risk"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "lightning-current-005",
+    "input": "Os trabalhadores podem inspecionar com segurança os filtros e as linhas de irrigação agora, diante das condições atuais de raios?",
+    "scenario": "lightning_current",
+    "tags": [],
+    "expected_agents": [
+      "lightning"
+    ],
+    "expected_skills": [
+      "lightning_risk"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "lightning-current-006",
+    "input": "A poda e a inspeção de pragas podem continuar com segurança nas condições atuais de raios?",
+    "scenario": "lightning_current",
+    "tags": [],
+    "expected_agents": [
+      "lightning"
+    ],
+    "expected_skills": [
+      "lightning_risk"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "lightning-current-007",
+    "input": "A exposição atual a raios é aceitável para uma operação aérea de monitoramento da cultura?",
+    "scenario": "lightning_current",
+    "tags": [],
+    "expected_agents": [
+      "lightning"
+    ],
+    "expected_skills": [
+      "lightning_risk"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "lightning-current-008",
+    "input": "O trabalho de colheita deve ser interrompido devido ao risco atual de raios?",
+    "scenario": "lightning_current",
+    "tags": [],
+    "expected_agents": [
+      "lightning"
+    ],
+    "expected_skills": [
+      "lightning_risk"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "lightning-history-001",
+    "input": "Quanta atividade de raios ocorreu durante os últimos sete dias de trabalho em campo?",
+    "scenario": "lightning_history",
+    "tags": [],
+    "expected_agents": [
+      "lightning"
+    ],
+    "expected_skills": [
+      "lightning_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "lightning-history-002",
+    "input": "Houve atividade de raios durante o período de mapeamento e amostragem de solo de ontem?",
+    "scenario": "lightning_history",
+    "tags": [],
+    "expected_agents": [
+      "lightning"
+    ],
+    "expected_skills": [
+      "lightning_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "lightning-history-003",
+    "input": "Quanta atividade de raios ocorreu durante o período mais recente de poda e inspeção da lavoura?",
+    "scenario": "lightning_history",
+    "tags": [],
+    "expected_agents": [
+      "lightning"
+    ],
+    "expected_skills": [
+      "lightning_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "lightning-history-004",
+    "input": "Foram detectados raios durante a janela mais recente de manutenção da irrigação?",
+    "scenario": "lightning_history",
+    "tags": [],
+    "expected_agents": [
+      "lightning"
+    ],
+    "expected_skills": [
+      "lightning_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "lightning-history-005",
+    "input": "A atividade de raios interrompeu trabalhos recentes de monitoramento em campo?",
+    "scenario": "lightning_history",
+    "tags": [],
+    "expected_agents": [
+      "lightning"
+    ],
+    "expected_skills": [
+      "lightning_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "lightning-history-006",
+    "input": "Quais períodos recentes de trabalho tiveram a maior atividade de raios registrada?",
+    "scenario": "lightning_history",
+    "tags": [],
+    "expected_agents": [
+      "lightning"
+    ],
+    "expected_skills": [
+      "lightning_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-lightning-001",
+    "input": "Como está o clima e qual é o risco de raios agora?",
+    "scenario": "weather_lightning",
+    "tags": [],
+    "expected_agents": [
+      "weather",
+      "lightning"
+    ],
+    "expected_skills": [
+      "weather_current_status",
+      "lightning_risk"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-lightning-002",
+    "input": "A equipe pode inspecionar flores e frutos jovens agora considerando o clima e a segurança contra raios?",
+    "scenario": "weather_lightning",
+    "tags": [],
+    "expected_agents": [
+      "weather",
+      "lightning"
+    ],
+    "expected_skills": [
+      "weather_current_status",
+      "lightning_risk"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-lightning-003",
+    "input": "A manutenção da irrigação por gotejamento deve continuar agora considerando vento, chuva e raios?",
+    "scenario": "weather_lightning",
+    "tags": [],
+    "expected_agents": [
+      "weather",
+      "lightning"
+    ],
+    "expected_skills": [
+      "weather_agronomic_bundle",
+      "lightning_risk"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "forecast",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-lightning-004",
+    "input": "Existe uma janela operacional segura para mapeamento em campo considerando vento, chuva e raios?",
+    "scenario": "weather_lightning",
+    "tags": [],
+    "expected_agents": [
+      "weather",
+      "lightning"
+    ],
+    "expected_skills": [
+      "weather_agronomic_bundle",
+      "lightning_risk"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "forecast",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-lightning-005",
+    "input": "A pulverização pode ocorrer nas próximas horas considerando o vento e a chuva previstos e o risco atual de raios?",
+    "scenario": "weather_lightning",
+    "tags": [],
+    "expected_agents": [
+      "weather",
+      "lightning"
+    ],
+    "expected_skills": [
+      "weather_agronomic_bundle",
+      "lightning_risk"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "forecast",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-lightning-006",
+    "input": "A colheita e a secagem do café podem continuar hoje considerando o clima e a exposição a raios?",
+    "scenario": "weather_lightning",
+    "tags": [],
+    "expected_agents": [
+      "weather",
+      "lightning"
+    ],
+    "expected_skills": [
+      "weather_agronomic_bundle",
+      "lightning_risk"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "forecast",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-lightning-007",
+    "input": "O monitoramento combinado aéreo e terrestre deve começar agora considerando a segurança meteorológica e contra raios?",
+    "scenario": "weather_lightning",
+    "tags": [],
+    "expected_agents": [
+      "weather",
+      "lightning"
+    ],
+    "expected_skills": [
+      "weather_current_status",
+      "lightning_risk"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-lightning-008",
+    "input": "A equipe de irrigação pode trabalhar ao ar livre agora considerando calor, vento, chuva e risco de raios?",
+    "scenario": "weather_lightning",
+    "tags": [],
+    "expected_agents": [
+      "weather",
+      "lightning"
+    ],
+    "expected_skills": [
+      "weather_agronomic_bundle",
+      "lightning_risk"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "forecast",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-lightning-009",
+    "input": "A poda ou a aplicação de produtos de proteção pode ocorrer nas próximas horas considerando a previsão do tempo e o risco de raios?",
+    "scenario": "weather_lightning",
+    "tags": [],
+    "expected_agents": [
+      "weather",
+      "lightning"
+    ],
+    "expected_skills": [
+      "weather_forecast",
+      "lightning_risk"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "forecast",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "weather-lightning-010",
+    "input": "A instalação de sensores em campo deve continuar agora com base nas condições atuais de clima e raios?",
+    "scenario": "weather_lightning",
+    "tags": [],
+    "expected_agents": [
+      "weather",
+      "lightning"
+    ],
+    "expected_skills": [
+      "weather_current_status",
+      "lightning_risk"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-soil-weather-001",
+    "input": "Usando orientações documentais sobre florada e pegamento inicial dos frutos, a umidade atual do solo e a chuva prevista, existe risco de perder flores ou frutos jovens por estresse hídrico?",
+    "scenario": "rag_soil_weather",
+    "tags": [],
+    "expected_agents": [
+      "rag",
+      "soil",
+      "weather"
+    ],
+    "expected_skills": [
+      "rag_context_lookup",
+      "soil_latest_status",
+      "rain_forecast"
+    ],
+    "expected_evidence_layers": [
+      "documentary",
+      "observational",
+      "spatial",
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-soil-weather-002",
+    "input": "Usando orientações técnicas documentadas de irrigação, o histórico de umidade do solo e a previsão do tempo, o próximo intervalo de irrigação deve ser revisto?",
+    "scenario": "rag_soil_weather",
+    "tags": [],
+    "expected_agents": [
+      "rag",
+      "soil",
+      "weather"
+    ],
+    "expected_skills": [
+      "rag_context_lookup",
+      "soil_history_summary",
+      "weather_forecast"
+    ],
+    "expected_evidence_layers": [
+      "documentary",
+      "observational",
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-soil-weather-003",
+    "input": "Usando orientações documentais sobre irrigação por gotejamento, a umidade atual do solo e a chuva prevista, o ciclo de irrigação de hoje deve ocorrer como planejado?",
+    "scenario": "rag_soil_weather",
+    "tags": [],
+    "expected_agents": [
+      "rag",
+      "soil",
+      "weather"
+    ],
+    "expected_skills": [
+      "rag_context_lookup",
+      "soil_latest_status",
+      "rain_forecast"
+    ],
+    "expected_evidence_layers": [
+      "documentary",
+      "observational",
+      "spatial",
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-soil-weather-004",
+    "input": "As orientações de agricultura de precisão, as diferenças de solo entre setores e as evidências meteorológicas justificam revisar as zonas de manejo atuais?",
+    "scenario": "rag_soil_weather",
+    "tags": [],
+    "expected_agents": [
+      "rag",
+      "soil",
+      "weather"
+    ],
+    "expected_skills": [
+      "rag_context_lookup",
+      "soil_evidence_summary",
+      "weather_evidence_summary"
+    ],
+    "expected_evidence_layers": [
+      "documentary",
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-soil-weather-005",
+    "input": "Considerando os limites regionais da fonte sobre irrigação, a umidade atual do solo e a previsão local de chuva, a irrigação suplementar é justificada aqui?",
+    "scenario": "rag_soil_weather",
+    "tags": [],
+    "expected_agents": [
+      "rag",
+      "soil",
+      "weather"
+    ],
+    "expected_skills": [
+      "rag_context_lookup",
+      "soil_latest_status",
+      "rain_forecast"
+    ],
+    "expected_evidence_layers": [
+      "documentary",
+      "observational",
+      "spatial",
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-soil-weather-006",
+    "input": "As observações atuais de solo e clima fornecem evidência local suficiente para adaptar com segurança as orientações documentais de aptidão climática?",
+    "scenario": "rag_soil_weather",
+    "tags": [],
+    "expected_agents": [
+      "rag",
+      "soil",
+      "weather"
+    ],
+    "expected_skills": [
+      "rag_context_lookup",
+      "soil_evidence_summary",
+      "weather_evidence_summary"
+    ],
+    "expected_evidence_layers": [
+      "documentary",
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-soil-weather-007",
+    "input": "Usando orientações documentais de agricultura de precisão e observações de solo e clima dos últimos 30 dias, quais variáveis devem continuar sendo monitoradas antes de alterar uma prescrição em taxa variável?",
+    "scenario": "rag_soil_weather",
+    "tags": [],
+    "expected_agents": [
+      "rag",
+      "soil",
+      "weather"
+    ],
+    "expected_skills": [
+      "rag_context_lookup",
+      "soil_history_summary",
+      "weather_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "documentary",
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-soil-weather-008",
+    "input": "Considerando as orientações de cultivo de arábica, a condição atual do solo e a previsão do tempo, o talhão está pronto para aplicação de nutrientes?",
+    "scenario": "rag_soil_weather",
+    "tags": [],
+    "expected_agents": [
+      "rag",
+      "soil",
+      "weather"
+    ],
+    "expected_skills": [
+      "rag_context_lookup",
+      "soil_latest_status",
+      "weather_forecast"
+    ],
+    "expected_evidence_layers": [
+      "documentary",
+      "observational",
+      "spatial",
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-soil-weather-009",
+    "input": "Usando orientações de manejo sustentável, as evidências disponíveis do solo, as condições atuais e a previsão do tempo, o que deve sustentar a decisão de irrigação de hoje?",
+    "scenario": "rag_soil_weather",
+    "tags": [],
+    "expected_agents": [
+      "rag",
+      "soil",
+      "weather"
+    ],
+    "expected_skills": [
+      "rag_context_lookup",
+      "soil_evidence_summary",
+      "weather_agronomic_bundle"
+    ],
+    "expected_evidence_layers": [
+      "documentary",
+      "observational",
+      "spatial",
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "rag-soil-weather-010",
+    "input": "Usando os conceitos do FAO 56, a umidade atual da zona radicular e a previsão do tempo, a demanda hídrica da cultura justifica alterar o plano de irrigação?",
+    "scenario": "rag_soil_weather",
+    "tags": [],
+    "expected_agents": [
+      "rag",
+      "soil",
+      "weather"
+    ],
+    "expected_skills": [
+      "rag_context_lookup",
+      "soil_latest_status",
+      "weather_agronomic_bundle"
+    ],
+    "expected_evidence_layers": [
+      "documentary",
+      "observational",
+      "spatial",
+      "forecast"
+    ],
+    "accepted_data_quality_statuses": [
+      "ok",
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "failure-001",
+    "input": "Pesquise nos documentos o comportamento da florada de uma cultivar inexistente de café chamada Celestial Bloom 88 e informe claramente quando não houver contexto de apoio.",
+    "scenario": "controlled_failure",
+    "tags": [],
+    "expected_agents": [
+      "rag"
+    ],
+    "expected_skills": [
+      "rag_context_lookup"
+    ],
+    "expected_evidence_layers": [
+      "documentary"
+    ],
+    "accepted_data_quality_statuses": [
+      "collection_gap",
+      "not_available"
+    ],
+    "faithfulness_required": false,
+    "retrieval_context_policy": "skip_faithfulness_if_context_missing"
+  },
+  {
+    "id": "failure-002",
+    "input": "Avalie as condições meteorológicas para a irrigação de hoje quando a fonte de clima estiver indisponível nesta condição de teste, sem inventar medições.",
+    "scenario": "controlled_failure",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_current_status"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "source_error",
+      "not_available"
+    ],
+    "faithfulness_required": false,
+    "retrieval_context_policy": "skip_faithfulness_if_context_missing"
+  },
+  {
+    "id": "failure-003",
+    "input": "Avalie a condição da irrigação quando apenas parte das evidências solicitadas de solo e clima estiver disponível.",
+    "scenario": "controlled_failure",
+    "tags": [],
+    "expected_agents": [
+      "soil",
+      "weather"
+    ],
+    "expected_skills": [
+      "soil_latest_status",
+      "weather_current_status"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "partial"
+    ],
+    "faithfulness_required": true,
+    "retrieval_context_policy": "require_context"
+  },
+  {
+    "id": "failure-004",
+    "input": "Qual é a condição atual do solo no Setor 99? Se o setor não estiver cadastrado, informe claramente a ausência de contexto espacial.",
+    "scenario": "controlled_failure",
+    "tags": [],
+    "expected_agents": [
+      "soil"
+    ],
+    "expected_skills": [
+      "soil_latest_status"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "collection_gap"
+    ],
+    "faithfulness_required": false,
+    "retrieval_context_policy": "skip_faithfulness_if_context_missing"
+  },
+  {
+    "id": "failure-005",
+    "input": "Resuma as condições recentes de raios para um período sem leituras coletadas, sem tratar a ausência de dados como condição segura.",
+    "scenario": "controlled_failure",
+    "tags": [],
+    "expected_agents": [
+      "lightning"
+    ],
+    "expected_skills": [
+      "lightning_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational",
+      "spatial"
+    ],
+    "accepted_data_quality_statuses": [
+      "collection_gap"
+    ],
+    "faithfulness_required": false,
+    "retrieval_context_policy": "skip_faithfulness_if_context_missing"
+  },
+  {
+    "id": "failure-006",
+    "input": "Resuma o clima recente para uma janela de monitoramento sem observações, sem inferir aptidão climática a partir de dados ausentes.",
+    "scenario": "controlled_failure",
+    "tags": [],
+    "expected_agents": [
+      "weather"
+    ],
+    "expected_skills": [
+      "weather_history_summary"
+    ],
+    "expected_evidence_layers": [
+      "observational"
+    ],
+    "accepted_data_quality_statuses": [
+      "collection_gap"
+    ],
+    "faithfulness_required": false,
+    "retrieval_context_policy": "skip_faithfulness_if_context_missing"
+  }
+]
