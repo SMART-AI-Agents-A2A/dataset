@@ -96,11 +96,3 @@ O dataset não fornece um campo `expected_output`. As respostas operacionais dep
 Os seis casos `controlled_failure` representam informações indisponíveis, ausentes ou parciais. Eles descrevem o comportamento esperado nessas condições; as perguntas, por si só, não provocam falhas em uma fonte.
 
 As políticas de contexto distinguem os casos que exigem evidência (`require_context`) daqueles que permitem dispensar a avaliação de fidelidade quando não há contexto (`skip_faithfulness_if_context_missing`).
-
-## Escopo e limitações
-
-O dataset concentra-se nos agentes e nos contratos de evidência do Smart Coffee Fog Swarm / AROMA. Sua cobertura é específica desse projeto e não representa todas as perguntas possíveis sobre agricultura.
-
-As perguntas distinguem condições observadas, previsões, orientações documentais e informações ausentes. Observações ausentes não devem ser interpretadas como valores zero, e a ausência de detecções de descargas atmosféricas não deve ser interpretada como garantia de segurança. Conclusões agronômicas exigem evidências de suporte aplicáveis.
-
-A revisão por especialistas e a concordância entre avaliadores não estão documentadas nesta versão.
