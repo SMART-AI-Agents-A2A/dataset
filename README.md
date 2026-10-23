@@ -97,10 +97,3 @@ The six `controlled_failure` cases represent unavailable, missing, or partial in
 
 The context policies distinguish cases that require evidence (`require_context`) from those that allow faithfulness assessment to be skipped when context is absent (`skip_faithfulness_if_context_missing`).
 
-## Scope and limitations
-
-The dataset focuses on the agents and evidence contracts of Smart Coffee Fog Swarm / AROMA. Its coverage is specific to that project and does not represent every agricultural question.
-
-The questions distinguish observed conditions, forecasts, documentary guidance, and missing information. Missing observations must not be interpreted as zero values, and absence of lightning detections must not be interpreted as a guarantee of safety. Agronomic conclusions require applicable supporting evidence.
-
-Expert review and inter-rater agreement are not documented for this release.
